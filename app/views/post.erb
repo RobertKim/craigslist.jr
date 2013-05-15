@@ -1,0 +1,12 @@
+<div class="container">
+<h2><a href="/">Home</a></h2>
+
+  <h1>Post title: <%= @post.title %></h1><br>
+  <p>Here is your secure id: <%=@post.secure_hex%></p>
+  <p>Post category: <a href="/category/<%=@post.category.id %>"><%= @post.category.name %></a></p>
+  <p>Content: <%= @post.text %></p>
+ 
+ 
+
+
+</div>
